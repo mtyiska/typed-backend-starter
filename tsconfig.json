@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+     // https://www.typescriptlang.org/tsconfig
+   "lib": ["es5", "es6", "esnext.asynciterable"],
+   "target": "es5",
+   "module": "commonjs",
+   "moduleResolution": "node",
+   "outDir": "./build",
+   "emitDecoratorMetadata": true,
+   "experimentalDecorators": true,
+   "sourceMap": true,
+       "allowSyntheticDefaultImports": true,  /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
+   // Additions
+   "esModuleInterop": true,
+   // Strict stuff
+   // "strict": true,
+   "noImplicitAny": true,
+   "strictNullChecks": true,
+   "strictFunctionTypes": true,
+   "strictBindCallApply": true,
+   // "strictPropertyInitialization": true,
+   "noImplicitThis": true,
+   // Extra
+   "alwaysStrict": true,
+   "noUnusedLocals": true,
+   "noUnusedParameters": true,
+   "noImplicitReturns": true,
+   "noFallthroughCasesInSwitch": true,
+   "resolveJsonModule": true
+  }
+}
