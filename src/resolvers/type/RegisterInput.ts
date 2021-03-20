@@ -3,6 +3,7 @@ import { Field, InputType } from "type-graphql";
 
 @InputType()
 export class RegisterInput{
+
   @Field()
   @IsEmail(undefined, {message:"Must be a valid email"})
   @Length(8, 255, {message:"Email is empty"})
